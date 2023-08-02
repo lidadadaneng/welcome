@@ -1,0 +1,47 @@
+@import '~antd/dist/reset.css';
+
+.App {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 16px;
+    /* 设置描边宽度及颜色 默认为字体内外描边 */
+    text-stroke: 0.2px #ffffff;
+    /* 兼容Webkit(Chrome/Safari)内核浏览器的写法 */
+    -webkit-text-stroke: 0.2px #ffffff;
+}
+
+.App::after {
+    content: "";
+    background: url("../asset/img/background.png") no-repeat center center;
+    background-size: auto 100%;
+    opacity: 0.2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.App .header {
+    font-size: max(28px,min(5vw,40px));
+    margin-bottom: 10vh;
+}
+
+html, body, #root {
+    height: 100%;
+}
+
+.ant-timeline-item-content {
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.ant-timeline-item-content:hover {
+    text-decoration: underline;
+    color: #4e70ff;
+}
