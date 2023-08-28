@@ -9,6 +9,7 @@ export const urlList = [
     {name: '(8087)基金实时估值', url: 'http://101.42.27.127:8087/'},
     {name: '(8099)lx-music备份服务器', url: 'http://101.42.27.127:8099/'},
     {name: '(8888)宝塔', url: 'https://101.42.27.127:8888/7b25f9b3'},
+    {name: '(9200)cpolar', url: 'http://101.42.27.127:9200'},
 ]
 
 export const lines = [
