@@ -1,15 +1,9 @@
+const SERVICE_URL = '123.56.119.124'
 export const urlList = [
-    {name: '(8081)Yapi', url: 'http://101.42.27.127:8081/'},
-    {name: '(8082)网站index', url: 'http://101.42.27.127:8082/'},
-    {name: '(8083)若依后台', url: 'http://101.42.27.127:8083/'},
-    {name: '(8084)文件服务器', url: 'http://101.42.27.127:8084/'},
-    {name: '(8084)webpack文档', url: 'http://101.42.27.127:8084/webpack5-docs/index.html'},
-    {name: '(8085)若依', url: 'http://101.42.27.127:8085/'},
-    {name: '(8086)Orangsea的个人博客', url: 'http://101.42.27.127:8086/'},
-    {name: '(8087)基金实时估值', url: 'http://101.42.27.127:8087/'},
-    {name: '(8099)lx-music备份服务器', url: 'http://101.42.27.127:8099/'},
-    {name: '(8888)宝塔', url: 'https://101.42.27.127:8888/7b25f9b3'},
-    {name: '(9200)cpolar', url: 'http://101.42.27.127:9200'},
+    {name: '(8081)派蒙', url: `http://${SERVICE_URL}:8081/`},
+    {name: '(4000)Orangsea的个人博客', url: `http://${SERVICE_URL}:4000/`},
+    {name: '(8082)基金实时估值', url: `http://${SERVICE_URL}:8082/`},
+    {name: '(8888)宝塔', url: `https://${SERVICE_URL}:8888/64e8acb4`},
 ]
 
 export const lines = [
