@@ -3,6 +3,7 @@ export const urlList = [
     {name: '(8081)派蒙', url: `http://${SERVICE_URL}:8081/`},
     {name: '(8082)基金实时估值', url: `http://${SERVICE_URL}:8082/`},
     {name: '(8083)Orangsea的个人博客', url: `http://${SERVICE_URL}:8083/`},
+    {name: '(8084)洛雪自动同步歌单服务器', url: `http://${SERVICE_URL}:8084/`},
     {name: '(8888)宝塔', url: `https://${SERVICE_URL}:8888/64e8acb4`},
 ]
 
